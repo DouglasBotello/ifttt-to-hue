@@ -31,17 +31,17 @@ export default {
     }
 
     const apiKey = env["hue_api_key"];
-    const bridgeIp = env["hue_bridge-ip"];
+    const bridgeIp = env["hue_bridge_ip"];
     const lightId = env["hue_light_id"];
 
     if (!apiKey) {
-      return new Response("hue-api-key secret is not configured", {
+      return new Response("hue_api_key secret is not configured", {
         status: 500,
       });
     }
 
     if (!bridgeIp || !lightId) {
-      return new Response("hue-bridge-ip and hue-light-id must be configured", {
+      return new Response("hue_bridge_ip and hue_light_id must be configured", {
         status: 500,
       });
     }
