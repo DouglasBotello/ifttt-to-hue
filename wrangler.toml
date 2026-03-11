@@ -4,4 +4,4 @@ compatibility_date = "2024-12-01"
 
 [[kv_namespaces]]
 binding = "HUE_KV"
-id = "ifttt-to-hue"
+id = "59dc9f911d3a4a1788fbff4b83304c00"
