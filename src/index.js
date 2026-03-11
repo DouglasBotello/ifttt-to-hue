@@ -1,4 +1,4 @@
-const LIGHT_OFF_DELAY_MS = 60_000;
+const LIGHT_OFF_DELAY_MS = 29_000;
 const HUE_AUTH_URL = "https://api.meethue.com/v2/oauth2/authorize";
 const HUE_TOKEN_URL = "https://api.meethue.com/v2/oauth2/token";
 const HUE_REMOTE_BASE = "https://api.meethue.com/route/clip/v2/resource/light";
@@ -140,7 +140,7 @@ export default {
 
       return new Response(
         JSON.stringify({
-          message: "Light turned on. It will turn off in 60 seconds.",
+          message: "Light turned on. It will turn off in 29 seconds.",
           hueResponse: onResult,
         }),
         {
