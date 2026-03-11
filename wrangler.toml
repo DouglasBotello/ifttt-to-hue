@@ -4,4 +4,4 @@ compatibility_date = "2024-12-01"
 
 [[kv_namespaces]]
 binding = "HUE_KV"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "ifttt-to-hue"

@@ -72,7 +72,7 @@ async function callHueApi(accessToken, apiKey, lightId, on) {
       "hue-application-key": apiKey,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ on: { on } }),
+    body: JSON.stringify({ "on": { on } }),
   });
 
   return {
